@@ -3,16 +3,15 @@
 <suite name="Failed suite [ParaBank Application Test Automation Test Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="ParaBank App Test Cases(failed)">
     <classes>
-      <class name="TestCases.FundTransTest">
-        <parameter name="password" value="password"/>
-        <parameter name="amount" value="1200"/>
-        <parameter name="username" value="gayathri"/>
+      <class name="TestCases.AccountOverviewTest">
+        <parameter name="password" value="password4"/>
+        <parameter name="username" value="narayani4"/>
         <methods>
-          <include name="fundTransfer" invocation-numbers="0"/>
+          <include name="accountOverview" invocation-numbers="0"/>
           <include name="setup"/>
           <include name="tearDown"/>
         </methods>
-      </class> <!-- TestCases.FundTransTest -->
+      </class> <!-- TestCases.AccountOverviewTest -->
     </classes>
   </test> <!-- ParaBank App Test Cases(failed) -->
 </suite> <!-- Failed suite [ParaBank Application Test Automation Test Suite] -->

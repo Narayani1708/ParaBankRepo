@@ -3,7 +3,7 @@
 <suite name="ParaBank Application Test Automation Test Suite">
   <test name="ParaBank App Test Cases">
   	<classes>
-  		<class name="TestCases.LoginTest">
+  		<!-- <class name="TestCases.LoginTest">
   		<parameter name="username" value="narayani1"/>
   		<parameter name="password" value="password1"/>
   		</class>
@@ -11,9 +11,11 @@
   		<parameter name="username" value="narayani1"/>
   		<parameter name="password" value="password1"/>
   		<parameter name="amount" value="1200"/>
-  		</class>
-  		<!-- <class name ="TestCases.AccountOverviewTest">
   		</class> -->
+  		<class name ="TestCases.AccountOverviewTest">
+  		<parameter name="username" value="narayani4"/>
+  		<parameter name="password" value="password4"/>
+  		</class>
   	</classes>
   </test><!-- Test -->
 </suite> <!-- Suite -->

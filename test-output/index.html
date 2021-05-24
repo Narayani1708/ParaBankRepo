@@ -93,7 +93,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">2 methods,   2 passed</span>
+                    <span class="method-stats">1 method,   1 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -104,12 +104,7 @@
                     <div class="method-list-content passed suite-ParaBank_Application_Test_Automation_Test_Suite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-ParaBank_Application_Test_Automation_Test_Suite" title="TestCases.FundTransTest" class="method navigator-link" hash-for-method="fundTransfer(narayani1, password1, 1200)">fundTransfer(narayani1, password1, 1200)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-ParaBank_Application_Test_Automation_Test_Suite" title="TestCases.LoginTest" class="method navigator-link" hash-for-method="logIn(narayani1, password1)">logIn(narayani1, password1)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-ParaBank_Application_Test_Automation_Test_Suite" title="TestCases.AccountOverviewTest" class="method navigator-link" hash-for-method="accountOverview(narayani4, password4)">accountOverview(narayani4, password4)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-ParaBank_Application_Test_Automation_Test_Suite -->
@@ -127,31 +122,15 @@
           <div class="suite-ParaBank_Application_Test_Automation_Test_Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">TestCases.FundTransTest</span>
+              <span class="class-name">TestCases.AccountOverviewTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="fundTransfer(narayani1, password1, 1200)">
-                  </a> <!-- fundTransfer(narayani1, password1, 1200) -->
-                  <span class="method-name">fundTransfer</span>
-                  <span class="parameters">(narayani1, password1, 1200)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-ParaBank_Application_Test_Automation_Test_Suite-class-passed -->
-          <div class="suite-ParaBank_Application_Test_Automation_Test_Suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">TestCases.LoginTest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="logIn(narayani1, password1)">
-                  </a> <!-- logIn(narayani1, password1) -->
-                  <span class="method-name">logIn</span>
-                  <span class="parameters">(narayani1, password1)</span>
+                  <a name="accountOverview(narayani4, password4)">
+                  </a> <!-- accountOverview(narayani4, password4) -->
+                  <span class="method-name">accountOverview</span>
+                  <span class="parameters">(narayani4, password4)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -168,15 +147,10 @@
 &lt;suite name=&quot;ParaBank Application Test Automation Test Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;ParaBank App Test Cases&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;TestCases.LoginTest&quot;&gt;
-        &lt;parameter name=&quot;password&quot; value=&quot;password1&quot;/&gt;
-        &lt;parameter name=&quot;username&quot; value=&quot;narayani1&quot;/&gt;
-      &lt;/class&gt; &lt;!-- TestCases.LoginTest --&gt;
-      &lt;class name=&quot;TestCases.FundTransTest&quot;&gt;
-        &lt;parameter name=&quot;password&quot; value=&quot;password1&quot;/&gt;
-        &lt;parameter name=&quot;amount&quot; value=&quot;1200&quot;/&gt;
-        &lt;parameter name=&quot;username&quot; value=&quot;narayani1&quot;/&gt;
-      &lt;/class&gt; &lt;!-- TestCases.FundTransTest --&gt;
+      &lt;class name=&quot;TestCases.AccountOverviewTest&quot;&gt;
+        &lt;parameter name=&quot;password&quot; value=&quot;password4&quot;/&gt;
+        &lt;parameter name=&quot;username&quot; value=&quot;narayani4&quot;/&gt;
+      &lt;/class&gt; &lt;!-- TestCases.AccountOverviewTest --&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- ParaBank App Test Cases --&gt;
 &lt;/suite&gt; &lt;!-- ParaBank Application Test Automation Test Suite --&gt;
@@ -190,7 +164,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">ParaBank App Test Cases (2 classes)</span>
+                <span class="test-name">ParaBank App Test Cases (1 class)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -216,20 +190,16 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(2);
+data.addRows(1);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'fundTransfer')
-data.setCell(0, 2, 'TestCases.FundTransTest')
-data.setCell(0, 3, 10267);
-data.setCell(1, 0, 1)
-data.setCell(1, 1, 'logIn')
-data.setCell(1, 2, 'TestCases.LoginTest')
-data.setCell(1, 3, 5189);
+data.setCell(0, 1, 'accountOverview')
+data.setCell(0, 2, 'TestCases.AccountOverviewTest')
+data.setCell(0, 3, 14629);
 window.suiteTableData['ParaBank_Application_Test_Automation_Test_Suite']= { tableData: data, tableDiv: 'times-div-ParaBank_Application_Test_Automation_Test_Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 15 seconds</span>
+              <span class="suite-total-time">Total running time: 14 seconds</span>
               <div id="times-div-ParaBank_Application_Test_Automation_Test_Suite">
               </div> <!-- times-div-ParaBank_Application_Test_Automation_Test_Suite -->
             </div> <!-- times-div -->
@@ -255,34 +225,19 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">TestCases.LoginTest</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">TestCases.AccountOverviewTest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setup</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
-                <span class="method-name">logIn(narayani1, password1)</span>
-                <span class="method-start">12917 ms</span>
+                <span class="method-name">accountOverview(narayani4, password4)</span>
+                <span class="method-start">11963 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">18119 ms</span>
+                <span class="method-start">26604 ms</span>
               </div> <!-- configuration-class after -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">TestCases.FundTransTest</div> <!-- chronological-class-name -->
-              <div class="configuration-class before">
-                <span class="method-name">setup</span>
-                <span class="method-start">19359 ms</span>
-              </div> <!-- configuration-class before -->
-              <div class="test-method">
-                <span class="method-name">fundTransfer(narayani1, password1, 1200)</span>
-                <span class="method-start">29301 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">tearDown</span>
-                <span class="method-start">39577 ms</span>
-              </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->
